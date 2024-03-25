@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppMob商店</string>
+
+    <string name="nama_label">姓名:</string>
+    <string name="tipe_pelanggan_label">客户类型:</string>
+    <string name="gold">黄金</string>
+    <string name="silver">银</string>
+    <string name="biasa">普通</string>
+    <string name="kode_barang_label">商品代码:</string>
+    <string name="jumlah_label">数量:</string>
+    <string name="proses_button">处理</string>
+    <string name="nama_hint">输入姓名</string>
+    <string name="kode_barang_hint">商品代码</string>
+    <string name="jumlah_barang_hint">商品数量</string>
+    <string name="ubahbahasa">更改语言</string>
+    <string name="Selamat_Datang">欢迎 ahmad renaldi</string>
+    <string name="Tipe_Member">会员类型: 普通</string>
+    <string name="Transaksi_hari_ini">今日交易</string>
+    <string name="Kode_Barang">商品编号: 017</string>
+    <string name="Nama_Barang">商品名称: Oppo A17</string>
+    <string name="Harga">价格: Rp. 2,500,999</string>
+    <string name="Total_Harga">总价: Rp. 7,502,997</string>
+    <string name="Discount_Harga">折扣价格: Rp. 100,000</string>
+    <string name="Discount_Member">会员折扣 (2%): Rp. 150,059</string>
+    <string name="Jumlah_Bayar">支付金额: Rp. 7,352,937</string>
+    <string name="Terimakasih_telah_berbelanja_disin">感谢您在这里购物</string>
+    <string name="Bagikan">分享</string>
+
+
+</resources>
+

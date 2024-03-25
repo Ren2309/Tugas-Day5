@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang ahmad renaldi"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipe Member: Gold"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaksi hari ini"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang: SGS"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang: Samsung Galaxy S"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga: Rp. 12.999.999"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Harga: Rp. 38.999.997"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount Harga: Rp. 100.000"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discount Member (10%): Rp. 3.899.999"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Bayar: Rp. 35.100.997"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terimakasih telah berbelanja disini"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagikan"
+        android:layout_gravity="center"
+        android:onClick="bagikanKeEmail"
+        android:layout_marginTop="100dp"/>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kedai AppMob</string>
+
+    <string name="nama_label">Nama:</string>
+    <string name="tipe_pelanggan_label">Jenis Pelanggan:</string>
+    <string name="gold">Emas</string>
+    <string name="silver">Perak</string>
+    <string name="biasa">Biasa</string>
+    <string name="kode_barang_label">Kod Barang:</string>
+    <string name="jumlah_label">Kuantiti:</string>
+    <string name="proses_button">Proses</string>
+    <string name="nama_hint">Masukkan Nama</string>
+    <string name="kode_barang_hint">Kod Barang</string>
+    <string name="jumlah_barang_hint">Kuantiti Barang</string>
+    <string name="ubahbahasa">Tukar Bahasa</string>
+    <string name="Selamat_Datang">Selamat Datang ahmad renaldi</string>
+    <string name="Tipe_Member">Jenis Ahli: biasa</string>
+    <string name="Transaksi_hari_ini">Transaksi hari ini</string>
+    <string name="Kode_Barang">Kod Item: 017</string>
+    <string name="Nama_Barang">Nama Item: Oppo A17</string>
+    <string name="Harga">Harga: RM 2,500,999</string>
+    <string name="Total_Harga">Jumlah Harga: RM 7,502,997</string>
+    <string name="Discount_Harga">Diskaun Harga: RM 100,000</string>
+    <string name="Discount_Member">Diskaun Ahli (2%): RM 150,059</string>
+    <string name="Jumlah_Bayar">Jumlah Bayaran: RM 7,352,937</string>
+    <string name="Terimakasih_telah_berbelanja_disin">Terima kasih kerana berbelanja di sini</string>
+    <string name="Bagikan">Kongsi</string>
+
+
+</resources>

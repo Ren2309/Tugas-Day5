@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="input_kode_barang" type="id" />
+    <item name="input_nama" type="id" />
+    <item name="gold_membership" type="id" />
+    <item name="biasa_membership" type="id" />
+    <item name="input_jumlah_barang" type="id" />
+    <item name="button_indonesia" type="id" />
+    <item name="button_english" type="id" />
+    <item name="button_malaysia" type="id" />
+    <item name="button_china" type="id" />
+    <item name="menu_indonesia" type="id" />
+    <item name="menu_english" type="id" />
+    <item name="menu_malaysia" type="id" />
+    <item name="menu_china" type="id" />
+</resources>

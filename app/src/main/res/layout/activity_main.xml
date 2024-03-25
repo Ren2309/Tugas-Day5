@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_label"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/input_layout_nama"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/nama_hint">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/input_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipe_pelanggan_label"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gold"
+                android:id="@+id/gold_membership"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/silver"
+                android:id="@+id/silver_membership"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biasa"
+                android:id="@+id/biasa_membership"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kode_barang_label"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_kode_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kode_barang_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_kode_barang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jumlah_label"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_jumlah_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/jumlah_barang_hint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_jumlah_barang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="@string/proses_button"
+        android:onClick="onProcessButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indo"
+        android:onClick="changeToIndonesian"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eng"
+        android:onClick="changeToEnglish"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Malay"
+        android:onClick="changeToMalay"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chines"
+        android:onClick="changeToChinese"/>
+
+
+</LinearLayout>

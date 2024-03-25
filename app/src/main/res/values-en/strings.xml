@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppMob Store</string>
+
+    <string name="nama_label">Name:</string>
+    <string name="tipe_pelanggan_label">Customer Type:</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="biasa">Regular</string>
+    <string name="kode_barang_label">Item Code:</string>
+    <string name="jumlah_label">Quantity:</string>
+    <string name="proses_button">Process</string>
+    <string name="nama_hint">Enter Name</string>
+    <string name="kode_barang_hint">Item Code</string>
+    <string name="jumlah_barang_hint">Quantity of Items</string>
+    <string name="ubahbahasa">Change language</string>
+    <string name="Selamat_Datang">Welcome ahmad renaldi</string>
+    <string name="Tipe_Member">Member Type</string>
+    <string name="Transaksi_hari_ini">Todays Transactions</string>
+    <string name="Kode_Barang">Item Code</string>
+    <string name="Nama_Barang">Item Name</string>
+    <string name="Harga">Price</string>
+    <string name="Total_Harga">Total Price</string>
+    <string name="Discount_Harga">Discount Price</string>
+    <string name="Discount_Member">Member Discount</string>
+    <string name="Jumlah_Bayar">Amount Paid</string>
+    <string name="Terimakasih_telah_berbelanja_disin">Thank you for shopping here</string>
+    <string name="Bagikan">Share</string>
+</resources>
